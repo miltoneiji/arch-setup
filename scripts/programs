@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+choice=$(echo -e "browser" | dmenu)
+
+case "$choice" in
+  browser) firefox & ;;
+esac
